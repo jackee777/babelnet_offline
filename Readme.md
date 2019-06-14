@@ -19,8 +19,8 @@ Get like this.
 Make your project and copy this program in your project. The detail information is https://github.com/marcevrard/BabelNet-API.
 
 ## 1 ECLIPSE SETTING
-Setting properties and classpath and so on
-```
+Setting properties and classpath and so on.
+
 Create your Eclipse project (File -> New -> Java project, give the project a name and press Finish). This creates a new folder with the project name projectFolder/ under your Eclipse workspace folder.
 
 Copy the config/ and resources/ folders from the BabelNet-API-4.0 folder into your workspace/projectFolder/
@@ -46,7 +46,7 @@ From the top bar click on 'File' and then 'Refresh'
 From the 'Java build path' (see point 3 above) select the 'Source' tab
 
 Once in the 'Source' tab, click on 'Add Folder' from the right sidebar and select the downloaded config/ folder
-```
+
 Happy coding!! ;-)
 
 For more information consult the guide online, http://babelnet.org/guide
