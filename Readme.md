@@ -1,5 +1,5 @@
 # about this program
-This is the java offline server. This purpose of this program used together babelnetpy https://github.com/jackee777/babelnetpy.
+This is the java offline server https://babelnet.org/. This purpose of this program used together babelnetpy https://github.com/jackee777/babelnetpy.
 
 Maybe, Readme is needed to be revised if I have enough time to check this.
 
