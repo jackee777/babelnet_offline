@@ -11,9 +11,9 @@ Execute babelnet.HttpServer and program argument is a port number. You must sett
 You can check whether your execute is successful or not by accessing http://localhost:1000/getSynsetIds?lemma=mouse.
 
 Get like this.
-'''
+```
 [{"id":"bn:00277032n","pos":"NOUN","source":"[WIKITR, WIKIDATA, WIKI]"},{"id":"bn:01829516n","pos":"NOUN","source":"[WIKIDATA, WIKIRED, WIKI]"},{"id":"bn:00086020v","pos":"VERB",・・・]
-'''
+```
 
 # Information
 Make your project and copy this program in your project. The detail information is https://github.com/marcevrard/BabelNet-API.
