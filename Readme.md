@@ -87,4 +87,6 @@ babelnet.dir=/opt/BabelNet-4.0.1
 ```
 
 # Thank you for reading
+I copied and referenced this server program. Thank you for this repogitory(https://github.com/opengl-8080/simple-http-server and japanese introduction page https://qiita.com/opengl-8080/items/ca152658a0e52c786029). 
+
 If this program is helpful for you, I want you to give the star this program for me. Have a nice day.
