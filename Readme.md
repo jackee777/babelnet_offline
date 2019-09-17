@@ -87,7 +87,8 @@ babelnet.dir=/opt/BabelNet-4.0.1
 ```
 
 # Execute babelnet.MainServer
-Write your port number in program arguments and run babelnet.MainServer!
+Write your port number in program arguments and replace the folder name, files/1000, to files/your_port_number.
+Finally, run babelnet.MainServer!
 
 # Thank you for reading
 I copied and referenced this server program. Thank you for this repogitory(https://github.com/opengl-8080/simple-http-server and japanese introduction page https://qiita.com/opengl-8080/items/ca152658a0e52c786029). 
