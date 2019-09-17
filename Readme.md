@@ -62,7 +62,7 @@ cd /opt
 sudo tar -jxvf /your dir/WordNet-3.0.tar.bz2
 ```
 
-In "config/babelnet.var.properties"
+In "config/jlt.var.properties"
 ```
 jlt.wordnetPrefix=/opt/WordNet
 ```
@@ -85,6 +85,9 @@ babelnet.dir=/opt/BabelNet-4.0.1
 # comment out
 #babelnet.restfulurl=http://babelnet.io/v5/service
 ```
+
+# Execute babelnet.MainServer
+Write your port number in program arguments and run babelnet.MainServer!
 
 # Thank you for reading
 I copied and referenced this server program. Thank you for this repogitory(https://github.com/opengl-8080/simple-http-server and japanese introduction page https://qiita.com/opengl-8080/items/ca152658a0e52c786029). 
