@@ -25,7 +25,7 @@ Create your Eclipse project (File -> New -> Java project, give the project a nam
 
 Copy the config/ and resources/ folders from the BabelNet-API-4.0 folder into your workspace/projectFolder/
 
-Now we need to include all the lib/*.jar files and the babelnet-api-4.0.jar (from https://babelnet.org/download)file in the project build classpath:
+Now we need to include all the lib/*.jar files and the babelnet-api-4.0.jar (from https://babelnet.org/download ) file in the project build classpath:
 
 Select the project from 'Package Explorer' tree view
 
