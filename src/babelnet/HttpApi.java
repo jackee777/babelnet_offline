@@ -18,6 +18,7 @@ import it.uniroma1.lcl.babelnet.BabelSynset;
 import it.uniroma1.lcl.babelnet.BabelSynsetID;
 import it.uniroma1.lcl.babelnet.WordNetSynsetID;
 import it.uniroma1.lcl.jlt.util.Language;
+import it.uniroma1.lcl.jlt.wordnet.WordNetVersion;
 
 public class HttpApi {
 
@@ -199,7 +200,39 @@ public class HttpApi {
 		}
 		return true;
 	}
-
+	
+	public boolean getBabelnetId(File file, String synsetid, String PORT) {
+		BabelNet bn = BabelNet.getInstance();
+		BabelSynset babel_synset = bn.getSynset(new WordNetSynsetID(synsetid, WordNetVersion.WN_30));
+		
+		List<BabelSynsetID> bn_synsetids = new ArrayList<BabelSynsetID>();
+		try {
+			bn_synsetids.add(babel_synset.getID());
+		}
+		catch(NullPointerException e) {
+			System.out.println(e);
+		}
+		
+		//File file = new File("files/"+PORT+"/getBabelnetId");
+		try{
+			
+			//System.out.println(bn_synsetids);
+			//file.createNewFile();
+			BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+			try {
+				bw.write(new Gson().toJson(bn_synsetids));
+		        bw.close();
+			}catch(IOException e){
+			    System.out.println(e);
+			}
+			finally {
+				bw.close();
+			}
+		}catch(IOException e){
+		    System.out.println(e);
+		}
+		return true;
+	}
 
 	public static void main(String[] args) {
 		out.println("main");
