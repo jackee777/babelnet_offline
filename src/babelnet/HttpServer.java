@@ -89,6 +89,11 @@ public class HttpServer {
                     		BabelInfo bi = readHeaderPath(url_path);
                     		change_file = ha.getWordnetId(file, bi.synsetid, String.valueOf(PORT));
                     	}
+                    	else if(target_function.equals(default_path+"/getBabelnetId")) {
+                    		//System.out.println("search");
+                    		BabelInfo bi = readHeaderPath(url_path);
+                    		change_file = ha.getBabelnetId(file, bi.synsetid, String.valueOf(PORT));
+                    	}
                     	if(change_file) {
                     		this.respondLocalFile(file, out);
                     	}
